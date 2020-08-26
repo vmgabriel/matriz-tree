@@ -1,0 +1,264 @@
+Nodo	index.cpp	/^struct Nodo$/;"	s	file:
+elemento	index.cpp	/^    int elemento;$/;"	m	struct:Nodo	file:
+izq	index.cpp	/^    int izq;$/;"	m	struct:Nodo	file:
+der	index.cpp	/^    int der;$/;"	m	struct:Nodo	file:
+ArbolBinario	index.cpp	/^class ArbolBinario$/;"	c	file:
+numNodos	index.cpp	/^    int numNodos;$/;"	m	class:ArbolBinario	file:
+arbol	index.cpp	/^    Nodo *arbol;$/;"	m	class:ArbolBinario	file:
+ArbolBinario	index.cpp	/^        ArbolBinario(int);$/;"	p	class:ArbolBinario	file:
+agregar	index.cpp	/^        int agregar(int,int);$/;"	p	class:ArbolBinario	file:
+eliminar	index.cpp	/^        bool eliminar(int,int);$/;"	p	class:ArbolBinario	file:
+buscar	index.cpp	/^        bool buscar(int,int);$/;"	p	class:ArbolBinario	file:
+mostrarInorden	index.cpp	/^        void mostrarInorden(int);$/;"	p	class:ArbolBinario	file:
+preOrden	index.cpp	/^        void preOrden(int);$/;"	p	class:ArbolBinario	file:
+posOrden	index.cpp	/^        void posOrden(int);$/;"	p	class:ArbolBinario	file:
+Niveles	index.cpp	/^        void Niveles();$/;"	p	class:ArbolBinario	file:
+canthojas	index.cpp	/^        int canthojas(int);$/;"	p	class:ArbolBinario	file:
+padreDe	index.cpp	/^        int padreDe(int,int);$/;"	p	class:ArbolBinario	file:
+MasIzq	index.cpp	/^        int MasIzq(int);$/;"	p	class:ArbolBinario	file:
+MasDer	index.cpp	/^        int MasDer(int);$/;"	p	class:ArbolBinario	file:
+profundidad	index.cpp	/^        int profundidad(int);$/;"	p	class:ArbolBinario	file:
+esHoja	index.cpp	/^        bool esHoja(int);$/;"	p	class:ArbolBinario	file:
+esCompleto	index.cpp	/^        bool esCompleto(int);$/;"	p	class:ArbolBinario	file:
+reemplazar	index.cpp	/^        void reemplazar(int,int);$/;"	p	class:ArbolBinario	file:
+getraiz	index.cpp	/^        int getraiz();$/;"	p	class:ArbolBinario	file:
+setarbolizq	index.cpp	/^        void setarbolizq(int);$/;"	p	class:ArbolBinario	file:
+ArbolBinario	index.cpp	/^ArbolBinario::ArbolBinario(int cant)$/;"	f	class:ArbolBinario
+agregar	index.cpp	/^int ArbolBinario::agregar (int raiz, int elemento)$/;"	f	class:ArbolBinario
+esHoja	index.cpp	/^bool ArbolBinario::esHoja (int raiz)$/;"	f	class:ArbolBinario
+padreDe	index.cpp	/^int ArbolBinario::padreDe (int raiz, int elemento)$/;"	f	class:ArbolBinario
+MasIzq	index.cpp	/^int ArbolBinario::MasIzq (int raiz)$/;"	f	class:ArbolBinario
+MasDer	index.cpp	/^int ArbolBinario::MasDer (int raiz)$/;"	f	class:ArbolBinario
+reemplazar	index.cpp	/^void ArbolBinario::reemplazar (int a, int aux)$/;"	f	class:ArbolBinario
+buscar	index.cpp	/^bool ArbolBinario::buscar (int raiz, int elemento)$/;"	f	class:ArbolBinario
+Borrar	index.cpp	/^void ArbolBinario::Borrar(int dat)$/;"	f	class:ArbolBinario
+esCompleto	index.cpp	/^bool ArbolBinario::esCompleto (int pos)$/;"	f	class:ArbolBinario
+canthojas	index.cpp	/^int ArbolBinario::canthojas (int clave)$/;"	f	class:ArbolBinario
+mostrarInorden	index.cpp	/^void ArbolBinario::mostrarInorden (int clave)$/;"	f	class:ArbolBinario
+preOrden	index.cpp	/^void ArbolBinario::preOrden (int clave)$/;"	f	class:ArbolBinario
+posOrden	index.cpp	/^void ArbolBinario::posOrden (int clave)$/;"	f	class:ArbolBinario
+Niveles	index.cpp	/^void ArbolBinario::Niveles ()$/;"	f	class:ArbolBinario
+profundidad	index.cpp	/^int ArbolBinario::profundidad (int pos)$/;"	f	class:ArbolBinario
+getraiz	index.cpp	/^int ArbolBinario::getraiz (){return arbol[0].izq;}$/;"	f	class:ArbolBinario
+setarbolizq	index.cpp	/^void ArbolBinario::setarbolizq (int val)$/;"	f	class:ArbolBinario
+menuMostrar	index.cpp	/^char menuMostrar()$/;"	f
+menu	index.cpp	/^char menu()$/;"	f
+main	index.cpp	/^int main()$/;"	f
+am__is_gnu_make	Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/trab10arbolesmatriz$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/trab10arbolesmatriz$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/trab10arbolesmatriz$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/trab10arbolesmatriz$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-pc-linux-gnu$/;"	m
+subdir	Makefile	/^subdir = src$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/ax_append_compile_flags.m4 \\$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(am__DIST_COMMON)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+SOURCES	Makefile	/^SOURCES =$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES =$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__DIST_COMMON	Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz\/build-aux\/missing aclocal-1.15$/;"	m
+ACLOCAL_AMFLAGS	Makefile	/^ACLOCAL_AMFLAGS = -I m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
+API_VERSION	Makefile	/^API_VERSION = 0$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz\/build-aux\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz\/build-aux\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz\/build-aux\/missing automake-1.15$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=none$/;"	m
+CFLAGS	Makefile	/^CFLAGS =  -std=gnu11$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=none$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = $/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = :$/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GETTEXT_MACRO_VERSION	Makefile	/^GETTEXT_MACRO_VERSION = 0.19$/;"	m
+GETTEXT_PACKAGE	Makefile	/^GETTEXT_PACKAGE = trab10arbolesmatriz$/;"	m
+GIT	Makefile	/^GIT = \/bin\/git$/;"	m
+GLIB_COMPILE_RESOURCES	Makefile	/^GLIB_COMPILE_RESOURCES = \/bin\/glib-compile-resources$/;"	m
+GLIB_COMPILE_SCHEMAS	Makefile	/^GLIB_COMPILE_SCHEMAS = glib-compile-schemas$/;"	m
+GLIB_GENMARSHAL	Makefile	/^GLIB_GENMARSHAL = \/bin\/glib-genmarshal$/;"	m
+GLIB_MKENUMS	Makefile	/^GLIB_MKENUMS = \/bin\/glib-mkenums$/;"	m
+GMSGFMT	Makefile	/^GMSGFMT = \/bin\/msgfmt$/;"	m
+GMSGFMT_015	Makefile	/^GMSGFMT_015 = \/bin\/msgfmt$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GSETTINGS_DISABLE_SCHEMAS_COMPILE	Makefile	/^GSETTINGS_DISABLE_SCHEMAS_COMPILE = $/;"	m
+HAVE_CXX11	Makefile	/^HAVE_CXX11 = $/;"	m
+INSTALL	Makefile	/^INSTALL = \/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+INTLLIBS	Makefile	/^INTLLIBS = $/;"	m
+INTL_MACOSX_LIBS	Makefile	/^INTL_MACOSX_LIBS = $/;"	m
+INTROSPECTION_CFLAGS	Makefile	/^INTROSPECTION_CFLAGS = -pthread -I\/usr\/include\/gobject-introspection-1.0 -I\/usr\/lib\/libffi-3.2.1\/include -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include$/;"	m
+INTROSPECTION_COMPILER	Makefile	/^INTROSPECTION_COMPILER = \/usr\/bin\/g-ir-compiler$/;"	m
+INTROSPECTION_GENERATE	Makefile	/^INTROSPECTION_GENERATE = \/usr\/bin\/g-ir-generate$/;"	m
+INTROSPECTION_GIRDIR	Makefile	/^INTROSPECTION_GIRDIR = \/usr\/share\/gir-1.0$/;"	m
+INTROSPECTION_LIBS	Makefile	/^INTROSPECTION_LIBS = -lgirepository-1.0 -lgobject-2.0 -lglib-2.0$/;"	m
+INTROSPECTION_MAKEFILE	Makefile	/^INTROSPECTION_MAKEFILE = \/usr\/share\/gobject-introspection-1.0\/Makefile.introspection$/;"	m
+INTROSPECTION_SCANNER	Makefile	/^INTROSPECTION_SCANNER = \/usr\/bin\/g-ir-scanner$/;"	m
+INTROSPECTION_TYPELIBDIR	Makefile	/^INTROSPECTION_TYPELIBDIR = \/usr\/lib\/girepository-1.0$/;"	m
+LD	Makefile	/^LD = \/bin\/ld -m elf_x86_64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBICONV	Makefile	/^LIBICONV = -liconv$/;"	m
+LIBINTL	Makefile	/^LIBINTL = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTLIBICONV	Makefile	/^LTLIBICONV = -liconv$/;"	m
+LTLIBINTL	Makefile	/^LTLIBINTL = $/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LT_SYS_LIBRARY_PATH	Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
+MAINT	Makefile	/^MAINT = $/;"	m
+MAJOR_VERSION	Makefile	/^MAJOR_VERSION = 0$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz\/build-aux\/missing makeinfo$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MICRO_VERSION	Makefile	/^MICRO_VERSION = 0$/;"	m
+MINOR_VERSION	Makefile	/^MINOR_VERSION = 1$/;"	m
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+MSGFMT	Makefile	/^MSGFMT = \/bin\/msgfmt$/;"	m
+MSGFMT_015	Makefile	/^MSGFMT_015 = \/bin\/msgfmt$/;"	m
+MSGMERGE	Makefile	/^MSGMERGE = \/bin\/msgmerge$/;"	m
+NM	Makefile	/^NM = nm$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = trab10arbolesmatriz$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = https:\/\/bugzilla.gnome.org\/enter_bug.cgi?product=trab10arbolesmatriz$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = trab10arbolesmatriz$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = trab10arbolesmatriz 0.1.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = trab10arbolesmatriz$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 0.1.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/bin\/pkg-config$/;"	m
+PKG_CONFIG_LIBDIR	Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_PATH	Makefile	/^PKG_CONFIG_PATH = $/;"	m
+POSUB	Makefile	/^POSUB = po$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/sh$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+TRAB10ARBOLESMATRIZ_CFLAGS	Makefile	/^TRAB10ARBOLESMATRIZ_CFLAGS = -pthread -I\/usr\/include\/glib-2.0 -I\/usr\/lib\/glib-2.0\/include$/;"	m
+TRAB10ARBOLESMATRIZ_LIBS	Makefile	/^TRAB10ARBOLESMATRIZ_LIBS = -lgio-2.0 -lgobject-2.0 -lglib-2.0$/;"	m
+USE_NLS	Makefile	/^USE_NLS = yes$/;"	m
+VERSION	Makefile	/^VERSION = 0.1.0$/;"	m
+WARN_CFLAGS	Makefile	/^WARN_CFLAGS = -fno-strict-aliasing -Wall -Wextra -Wundef -Wnested-externs -Wwrite-strings -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wredundant-decls -Wno-unused-parameter -Wno-missing-field-initializers -Wdeclaration-after-statement -Wformat=2 -Wold-style-definition -Wcast-align -Wformat-nonliteral -Wformat-security -Wsign-compare -Wstrict-aliasing -Wshadow -Winline -Wpacked -Wmissing-format-attribute -Wmissing-noreturn -Winit-self -Wmissing-include-dirs -Wunused-but-set-variable -Warray-bounds -Wimplicit-function-declaration -Wreturn-type -Wswitch-enum -Wswitch-default -Werror -Wno-suggest-attribute=format -Wno-error=unused-parameter -Wno-error=missing-field-initializers$/;"	m
+WARN_CXXFLAGS	Makefile	/^WARN_CXXFLAGS = -fno-strict-aliasing -Wall -Wextra -Wundef -Wwrite-strings -Wpointer-arith -Wmissing-declarations -Wredundant-decls -Wno-unused-parameter -Wno-missing-field-initializers -Wformat=2 -Wcast-align -Wformat-nonliteral -Wformat-security -Wsign-compare -Wstrict-aliasing -Wshadow -Winline -Wpacked -Wmissing-format-attribute -Wmissing-noreturn -Winit-self -Wmissing-include-dirs -Wunused-but-set-variable -Warray-bounds -Wreturn-type -Wno-overloaded-virtual -Wswitch-enum -Wswitch-default -Werror -Wno-suggest-attribute=format -Wno-error=unused-parameter -Wno-error=missing-field-initializers -Wno-error=overloaded-virtual$/;"	m
+WARN_LDFLAGS	Makefile	/^WARN_LDFLAGS = -Wl,--no-as-needed -Wl,--fatal-warnings$/;"	m
+WARN_SCANNERFLAGS	Makefile	/^WARN_SCANNERFLAGS =               --warn-all                                                                           --warn-error         $/;"	m
+XGETTEXT	Makefile	/^XGETTEXT = \/bin\/xgettext$/;"	m
+XGETTEXT_015	Makefile	/^XGETTEXT_015 = \/bin\/xgettext$/;"	m
+XGETTEXT_EXTRA_OPTIONS	Makefile	/^XGETTEXT_EXTRA_OPTIONS = $/;"	m
+abs_builddir	Makefile	/^abs_builddir = \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz\/src$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz\/src$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz$/;"	m
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = link -dump$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__tar	Makefile	/^am__tar = tar --format=ustar -chf - "$$tardir"$/;"	m
+am__untar	Makefile	/^am__untar = tar -xf -$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+gsettingsschemadir	Makefile	/^gsettingsschemadir = ${datarootdir}\/glib-2.0\/schemas$/;"	m
+host	Makefile	/^host = x86_64-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = x86_64-linux-gnu$/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/gabriel\/Documentos\/UD\/2017-1\/Ciencias\/Trab10ArbolesMatriz\/build-aux\/install-sh$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+prefix	Makefile	/^prefix = \/home\/gabriel\/.cache\/gnome-builder\/install\/Trab10ArbolesMatriz\/host$/;"	m
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+srcdir	Makefile	/^srcdir = .$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+top_build_prefix	Makefile	/^top_build_prefix = ..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..$/;"	m
